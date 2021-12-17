@@ -38,7 +38,7 @@
         class="vue-typed"
         :showCursor="false"
         :loop="true"
-        :strings="[greetings() + ', ' + nicknames + '! ^5000', 'Semoga panjang umur dan sehat selalu', 'Love U <333']"
+        :strings="[greetings() + ', ' + nicknames + '! ^2500', 'Semoga panjang umur dan sehat selalu ^2500', 'Love U <333 ^2500']"
         :backDelay="500"
         :typeSpeed="100"
         :backSpeed="20"
