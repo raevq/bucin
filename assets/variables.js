@@ -2,9 +2,9 @@ export default {
   nicknames: ["Chaa", "Chacaaaa", "Sayang", "Suciiii"],
   greetings: {
     evening: "Happy Birthday",
-    afternoon: "Selamat Ulang Tahun",
-    day: "Semoga Panjang Umur",
-    morning: "Sehat Selalu",
+    afternoon: "Happy Birthday",
+    day: "Happy Birthday",
+    morning: "Happy Birthday",
     night: "Happy Birthday"
   }
 };
