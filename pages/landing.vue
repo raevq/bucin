@@ -25,7 +25,7 @@
     />
 
     <!-- Audio file -->
-    <audio src="~/assets/music.mp3" />
+    <audio src="~/assets/music_bak.mp3" autoplay controls loop/>
 
     <!-- Main -->
     <div class="main">
