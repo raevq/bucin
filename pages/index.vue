@@ -10,7 +10,7 @@
       <v-card-actions>
         <v-btn text :disabled='currentPage == 0' @click="currentPage--">Prev</v-btn>
         <v-spacer></v-spacer>
-        <v-btn text @click="currentPage == 25 ? '' : currentPage++" :to="currentPage == stories.length - 1 ? '/landing' : '#'">Next</v-btn>
+        <v-btn text @click="currentPage == 25 ? '' : currentPage++" :to="currentPage == stories.length - 1 ? '/landing/' : '#'">Next</v-btn>
       </v-card-actions>
     </v-card>
   </v-container>
