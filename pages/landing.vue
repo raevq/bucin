@@ -38,7 +38,7 @@
         class="vue-typed"
         :showCursor="false"
         :loop="true"
-        :strings="[greetings() + ', ' + nicknames + '! ^2500', 'Semoga panjang umur dan sehat selalu ^2000', 'Tercapai semua yang diinginkan juga ^2000', 'Semangat ngajarnya!! ^2000', 'Semangat mencari korporatnya! ^2000','Semangat semuanya^2000','Kevin sayang kamuu <33 ^2000','Love U <333 ^2500']"
+        :strings="[greetings() + ', ' + nicknames + '! ^2500', 'Semoga panjang umur dan sehat selalu :) ^2000', 'Tercapai semua yang diinginkan juga! ^2000', 'Semangat ngajarnya!! ^2000', 'Jadi adminnya juga semangatt!! ^2000','Semangat semuanya!!! ^2000','Kevin sayang kamuu <33 ^2000','Love U <333 ^2500']"
         :backDelay="500"
         :typeSpeed="100"
         :backSpeed="20"
