@@ -117,19 +117,19 @@ export default {
       quotes: this.random(quotesFile), // random the quotes (from variables.js)
       greetings: function() {
         // If right now is equals to or greater than 18 (6pm), show evening greeting
-        if (now >= 18) return greetings.evening;
+        if (now >= 16) return greetings.evening;
 
         // If right now is equals to or greater than 15 (3pm), show afternoon greeting
-        if (now >= 15) return greetings.afternoon;
+        if (now >= 13) return greetings.afternoon;
 
         // If right now is equals to or greater than 11 (11am), show day greeting
-        if (now >= 11) return greetings.day;
+        if (now >= 10) return greetings.day;
 
         // If right now is equals to or greater than 5 (5am), show morning greeting
-        if (now >= 5) return greetings.morning;
+        if (now >= 4) return greetings.morning;
 
         // If right now is equals to or greater than 0 (12am), show sleep greeting
-        if (now >= 0) return greetings.night;
+        if (now >= 20) return greetings.night;
       },
       darkMode: function() {
         // If right now is equals to or greater than 18 (6pm), turn on darkmode
